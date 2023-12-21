@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEP API - VIA CEP</title>
+  </head>
+  <body style="background-color: darkgray">
+    <h1 style="justify-content: center; display: flex; text-align: center">Integração com a Fetch - VIA CEP</h1>
+    <div id="inputCep" style="display: flex; justify-content: center; margin-top: 5rem; align-items: center">
+      <h2 style="margin-right: 1rem">insira um cep</h2>
+      <input style="height: min-content" type="text" name="buscador de cep" id="cep" placeholder="74765-440" />
+      <button id="btnBuscar" style="margin-left: 1rem">Buscar</button>
+    </div>
+    <div id="info-cep" style="width: 70vw; background-color: rgb(77, 72, 75); color: #ffffff; padding: 3, 0; margin: auto; padding: auto">
+      <ul style="list-style: none">
+        <li><p id="logradouro"></p></li>
+        <li><p id="bairro"></p></li>
+        <li><p id="cidade"></p></li>
+        <li><p id="estado"></p></li>
+      </ul>
+    </div>
+    <p id="retorno" style="justify-content: center; display: flex; background-color: #222; color: white"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
